@@ -3,7 +3,7 @@ A Minecraft mod made to make clouds color customizable
 
 ## Installation
 
-* Download Clouds mod on [Modrinth](https://modrinth.com/user/modded_mod16)
+* Download Clouds mod on [Modrinth](https://modrinth.com/project/clouds-modded_mod16/)
 * Move your Clouds mod `.jar` file in your `.minecraft/mods` folder
 
 ## Sources
