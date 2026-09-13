@@ -1,5 +1,5 @@
 # Clouds
-A Minecraft mod made to add more clouds layer
+A Minecraft mod made to make clouds color customizable
 
 ## Installation
 

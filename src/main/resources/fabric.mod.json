@@ -3,7 +3,7 @@
 	"id": "clouds",
 	"version": "${version}",
 	"name": "Clouds",
-	"description": "A Minecraft mod made to add more clouds layer",
+	"description": "A Minecraft mod made to make clouds color customizable",
 	"authors": [
 		"Moddedmod (modded_mod16)"
 	],
