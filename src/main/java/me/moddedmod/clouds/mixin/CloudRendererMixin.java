@@ -1,5 +1,6 @@
 package me.moddedmod.clouds.mixin;
 
+import me.moddedmod.clouds.client.CloudsClientMod;
 import net.minecraft.client.CloudStatus;
 import net.minecraft.client.renderer.CloudRenderer;
 import net.minecraft.world.phys.Vec3;
@@ -25,9 +26,12 @@ public abstract class CloudRendererMixin {
         if (clouds$isRendering){
             return;
         }
+
+        int colorVal = CloudsClientMod.colorVal[CloudsClientMod.colorIndex];
+
         clouds$isRendering = true;
         try {
-            this.render(0xFFFFFFFF, cloudStatus, bottomY, range, cameraPosition, gameTime, partialTicks);
+            this.render(colorVal, cloudStatus, bottomY, range, cameraPosition, gameTime, partialTicks);
             ci.cancel();
         } finally {
             clouds$isRendering = false;
